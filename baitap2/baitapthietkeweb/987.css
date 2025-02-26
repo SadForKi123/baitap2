@@ -1,0 +1,14 @@
+ul {
+    list-style: none; /* Ẩn dấu chấm mặc định */
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: "•"; /* Thêm dấu chấm */
+    color: orange; /* Màu của dấu chấm */
+    font-size: 1.2em; /* Tùy chỉnh kích thước */
+    font-weight: bold; /* Làm đậm dấu chấm */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; /* Căn chỉnh lại vị trí */
+}
